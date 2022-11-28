@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bookingApp.iml" filepath="$PROJECT_DIR$/.idea/bookingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/ear/ear.iml" filepath="$PROJECT_DIR$/demo/ear/ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/ejbs/ejbs.iml" filepath="$PROJECT_DIR$/demo/ejbs/ejbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/projects/logging/logging.iml" filepath="$PROJECT_DIR$/demo/projects/logging/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/primary-source/primary-source.iml" filepath="$PROJECT_DIR$/demo/primary-source/primary-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/projects/projects.iml" filepath="$PROJECT_DIR$/demo/projects/projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/servlets/servlet/servlet.iml" filepath="$PROJECT_DIR$/demo/servlets/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/servlets/servlets.iml" filepath="$PROJECT_DIR$/demo/servlets/servlets.iml" />
+    </modules>
+  </component>
+</project>

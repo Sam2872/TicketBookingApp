@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://java.sun.com/xml/ns/javaee"
+		 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+		 id="WebApp_ID" version="3.0">
+    <servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>SignUp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignUp</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Movies</servlet-name>
+		<servlet-class>Movies</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Movies</servlet-name>
+		<url-pattern>/Movies</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Theaters</servlet-name>
+		<servlet-class>Theaters</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Theaters</servlet-name>
+		<url-pattern>/Theaters</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>BookSeats</servlet-name>
+		<servlet-class>BookSeats</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BookSeats</servlet-name>
+		<url-pattern>/BookSeats</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetTickets</servlet-name>
+		<servlet-class>GetTickets</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetTickets</servlet-name>
+		<url-pattern>/GetTickets</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DeleteTicket</servlet-name>
+		<servlet-class>DeleteTicket</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteTicket</servlet-name>
+		<url-pattern>/DeleteTicket</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetUserId</servlet-name>
+		<servlet-class>GetUserId</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetUserId</servlet-name>
+		<url-pattern>/GetUserId</url-pattern>
+	</servlet-mapping>
+
+</web-app>
