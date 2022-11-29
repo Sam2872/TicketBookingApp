@@ -14,14 +14,17 @@ public class BookSeats extends HttpServlet {
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String user_id = "";
+        String show_id = "";
         Cookie[] ck = request.getCookies();
         for(Cookie c : ck){
             if(c.getName().equals("user_id")){
                 user_id  = c.getValue();
             }
+            if(c.getName().equals("show_id")){
+                show_id = c.getValue();
+            }
         }
         String  seats = request.getParameter("seats");
-        String show_id = request.getParameter("show_id");
         String[] arr = seats.split(",");
         int j = 0;
 

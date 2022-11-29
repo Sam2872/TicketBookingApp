@@ -23,6 +23,9 @@ public class AvailableSeats extends HttpServlet {
         }
         if(username!=null) {
             String show_id = request.getParameter("show_id");
+            Cookie ck = new Cookie("show_id",show_id);
+            ck.setMaxAge(-1);
+            response.addCookie(ck);
             String res = "0";
             int x = 1;
             ArrayList<Integer> list = new ArrayList<>();
